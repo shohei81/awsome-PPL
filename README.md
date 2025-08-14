@@ -31,6 +31,8 @@ Instead of coding “how” to compute, you specify *what* your model is, and th
   *Tutorial*: [Stan User’s Guide](https://mc-stan.org/users/documentation/)
 - [**Bean Machine**](https://beanmachine.org/) – Meta’s research PPL for programmable inference using PyTorch.  
   *Tutorial*: [Bean Machine Tutorials](https://beanmachine.org/tutorials/)
+- [**Edward2**](https://github.com/google/edward2) – A lightweight, low-level probabilistic programming library built on TensorFlow, JAX, or NumPy, emphasizing flexibility via a single abstraction (“random variable”) and tracing-based model manipulation :contentReference[oaicite:0]{index=0}.  
+  *Tutorial*: [Edward Tutorials](https://edwardlib.org/tutorials/) :contentReference[oaicite:1]{index=1}
 - [**GenJAX**](http://genjax.gen.dev/) – JAX-based implementation of Gen with programmable variational inference.  
   *Tutorial*: [GenJAX Documentation](https://genjax.gen.dev/cookbook/active/intro.html)
 - [**BlackJAX**](https://blackjax-devs.github.io/blackjax/) – Sampling algorithms for JAX (HMC, NUTS, Riemannian HMC, SMC) designed for composability with other JAX-based PPLs.  
