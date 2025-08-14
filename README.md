@@ -19,7 +19,7 @@ Instead of coding “how” to compute, you specify *what* your model is, and th
 ---
 
 ## Python
-- [**PyMC**](https://www.pymc.io/) – Declarative, graph-based PPL for applied Bayesian statistics. Supports NUTS, ADVI, SMC. Excellent visualization/diagnostics via [ArviZ](https://www.arviz.org/).  
+- [**PyMC**](https://www.pymc.io/) – Declarative, graph-based PPL for applied Bayesian statistics. Supports NUTS, ADVI, SMC.
   *Tutorial*: [PyMC Examples](https://www.pymc.io/projects/examples/en/stable/)
 - [**Pyro**](https://pyro.ai/) – Universal (generative) PPL built on PyTorch. Strong in deep probabilistic modeling, VI, and HMC/NUTS.  
   *Tutorial*: [Pyro Tutorials](https://pyro.ai/examples/)
@@ -32,19 +32,15 @@ Instead of coding “how” to compute, you specify *what* your model is, and th
 - [**Bean Machine**](https://beanmachine.org/) – Meta’s research PPL for programmable inference using PyTorch.  
   *Tutorial*: [Bean Machine Tutorials](https://beanmachine.org/tutorials/)
 - [**GenJAX**](http://genjax.gen.dev/) – JAX-based implementation of Gen with programmable variational inference.  
-  *Tutorial*: [GenJAX Documentation]([http://genjax.gen.dev/](https://genjax.gen.dev/cookbook/active/intro.html))
+  *Tutorial*: [GenJAX Documentation](https://genjax.gen.dev/cookbook/active/intro.html)
 - [**BlackJAX**](https://blackjax-devs.github.io/blackjax/) – Sampling algorithms for JAX (HMC, NUTS, Riemannian HMC, SMC) designed for composability with other JAX-based PPLs.  
   *Tutorial*: [BlackJAX Examples](https://blackjax-devs.github.io/blackjax/examples.html)
-
----
 
 ## Julia
 - [**Turing.jl**](https://turinglang.org/) – General-purpose, high-performance PPL supporting NUTS, HMC, PMCMC, Gibbs, VI.  
   *Tutorial*: [Turing.jl Getting Started](https://turinglang.org/docs/getting-started/)
 - [**Gen.jl**](https://www.gen.dev/) – Research-oriented PPL with programmable inference, hybrid MCMC/VI/SMC algorithms.  
   *Tutorial*: [Gen.jl Documentation](https://www.gen.dev/docs/)
-
----
 
 ## R
 - [**Stan**](https://mc-stan.org/) (via rstan, cmdstanr) – Seamless integration with R workflows.  
@@ -54,21 +50,15 @@ Instead of coding “how” to compute, you specify *what* your model is, and th
 - [**JAGS/BUGS**](https://sourceforge.net/projects/mcmc-jags/) – Pioneering declarative PPLs using Gibbs sampling.  
   *Tutorial*: [JAGS Documentation](https://mcmc-jags.sourceforge.io/)
 
----
-
 ## Scala
 - [**Figaro**](https://cra.com/blog/figaro/) – Expressive Scala PPL with broad algorithm support (MCMC, SMC, exact inference).  
   *Tutorial*: [Figaro Guide](https://cra.com/wp-content/uploads/2018/08/FigaroUserGuide.pdf)
 - [**Rainier**](https://rainier.fit/) – High-performance, static-graph Scala PPL inspired by Stan/PyMC.  
   *Tutorial*: [Rainier Examples](https://github.com/stripe/rainier/tree/master/examples)
 
----
-
 ## JavaScript
 - [**WebPPL**](http://webppl.org/) – Universal PPL for the web. Runs in-browser or Node.js, popular in cognitive science.  
   *Tutorial*: [WebPPL Web Book](http://probmods.org/)
-
----
 
 ## Logic & Specialized
 - [**ProbLog**](https://dtai.cs.kuleuven.be/problog) – Probabilistic logic programming over large, uncertain knowledge bases.  
